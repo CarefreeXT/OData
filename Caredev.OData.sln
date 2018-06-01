@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Caredev.OData", "src\Caredev.OData\Caredev.OData.csproj", "{E2BEC14B-0DCB-4182-B39E-6A7A5ACED946}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9D742D6A-DCF4-4226-84BF-92678E5C03BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{659FA345-FA0F-4D22-8971-F0CE313DD5A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{024BD166-B2EC-431B-BD5C-7913631D89F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caredev.OData.Sample.AspNet", "sample\Caredev.OData.Sample.AspNet\Caredev.OData.Sample.AspNet.csproj", "{C6F8A59F-A211-4C58-A472-0984AA35E004}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Caredev.OData.Sample.AspNetCore", "sample\Caredev.OData.Sample.AspNetCore\Caredev.OData.Sample.AspNetCore.csproj", "{8EC8664E-B795-4522-8316-C802FC9FBD86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caredev.OData.Tests.AspNet", "test\Caredev.OData.Tests.AspNet\Caredev.OData.Tests.AspNet.csproj", "{68C0E164-0D83-4855-90D6-D45E5E0A73AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caredev.OData.Tests.AspNetCore", "test\Caredev.OData.Tests.AspNetCore\Caredev.OData.Tests.AspNetCore.csproj", "{CD9B14F4-4359-40D4-B3BB-474A0BD2CBED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2BEC14B-0DCB-4182-B39E-6A7A5ACED946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2BEC14B-0DCB-4182-B39E-6A7A5ACED946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2BEC14B-0DCB-4182-B39E-6A7A5ACED946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2BEC14B-0DCB-4182-B39E-6A7A5ACED946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6F8A59F-A211-4C58-A472-0984AA35E004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6F8A59F-A211-4C58-A472-0984AA35E004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6F8A59F-A211-4C58-A472-0984AA35E004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6F8A59F-A211-4C58-A472-0984AA35E004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EC8664E-B795-4522-8316-C802FC9FBD86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EC8664E-B795-4522-8316-C802FC9FBD86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EC8664E-B795-4522-8316-C802FC9FBD86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EC8664E-B795-4522-8316-C802FC9FBD86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68C0E164-0D83-4855-90D6-D45E5E0A73AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68C0E164-0D83-4855-90D6-D45E5E0A73AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68C0E164-0D83-4855-90D6-D45E5E0A73AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68C0E164-0D83-4855-90D6-D45E5E0A73AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD9B14F4-4359-40D4-B3BB-474A0BD2CBED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD9B14F4-4359-40D4-B3BB-474A0BD2CBED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD9B14F4-4359-40D4-B3BB-474A0BD2CBED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD9B14F4-4359-40D4-B3BB-474A0BD2CBED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E2BEC14B-0DCB-4182-B39E-6A7A5ACED946} = {659FA345-FA0F-4D22-8971-F0CE313DD5A4}
+		{C6F8A59F-A211-4C58-A472-0984AA35E004} = {024BD166-B2EC-431B-BD5C-7913631D89F7}
+		{8EC8664E-B795-4522-8316-C802FC9FBD86} = {024BD166-B2EC-431B-BD5C-7913631D89F7}
+		{68C0E164-0D83-4855-90D6-D45E5E0A73AA} = {9D742D6A-DCF4-4226-84BF-92678E5C03BA}
+		{CD9B14F4-4359-40D4-B3BB-474A0BD2CBED} = {9D742D6A-DCF4-4226-84BF-92678E5C03BA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62041955-10B4-41B2-B083-69716459AD69}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://www.caredev.site/tfs/customcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = src\\Caredev.OData\\Caredev.OData.csproj
+		SccProjectTopLevelParentUniqueName1 = Caredev.OData.sln
+		SccProjectName1 = src/Caredev.OData
+		SccLocalPath1 = src\\Caredev.OData
+		SccProjectUniqueName2 = sample\\Caredev.OData.Sample.AspNet\\Caredev.OData.Sample.AspNet.csproj
+		SccProjectTopLevelParentUniqueName2 = Caredev.OData.sln
+		SccProjectName2 = sample/Caredev.OData.Sample.AspNet
+		SccLocalPath2 = sample\\Caredev.OData.Sample.AspNet
+		SccProjectUniqueName3 = sample\\Caredev.OData.Sample.AspNetCore\\Caredev.OData.Sample.AspNetCore.csproj
+		SccProjectTopLevelParentUniqueName3 = Caredev.OData.sln
+		SccProjectName3 = sample/Caredev.OData.Sample.AspNetCore
+		SccLocalPath3 = sample\\Caredev.OData.Sample.AspNetCore
+		SccProjectUniqueName4 = test\\Caredev.OData.Tests.AspNet\\Caredev.OData.Tests.AspNet.csproj
+		SccProjectTopLevelParentUniqueName4 = Caredev.OData.sln
+		SccProjectName4 = test/Caredev.OData.Tests.AspNet
+		SccLocalPath4 = test\\Caredev.OData.Tests.AspNet
+		SccProjectUniqueName5 = test\\Caredev.OData.Tests.AspNetCore\\Caredev.OData.Tests.AspNetCore.csproj
+		SccProjectTopLevelParentUniqueName5 = Caredev.OData.sln
+		SccProjectName5 = test/Caredev.OData.Tests.AspNetCore
+		SccLocalPath5 = test\\Caredev.OData.Tests.AspNetCore
+	EndGlobalSection
+EndGlobal
